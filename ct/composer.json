@@ -1,0 +1,17 @@
+{
+  "name": "root/composer",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "boshi"
+    }
+  ],
+  "require": {
+    "twig/twig": "^3.3",
+    "monolog/monolog": "^2.6"
+  }
+}
